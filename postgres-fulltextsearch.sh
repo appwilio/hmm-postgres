@@ -4,8 +4,8 @@ POSTGRE_SEARCH_DIR="/usr/share/postgresql/$PG_MAJOR/tsearch_data"
 whoami
 ls -la $POSTGRE_SEARCH_DIR
 #Unzip dictionary
-cp /temp/ru_ru.affix "$POSTGRE_SEARCH_DIR/"
-cp /temp/ru_ru.dict "$POSTGRE_SEARCH_DIR/"
+#cp /temp/ru_ru.affix "$POSTGRE_SEARCH_DIR/"
+#cp /temp/ru_ru.dict "$POSTGRE_SEARCH_DIR/"
 
 
 #Default search setup
