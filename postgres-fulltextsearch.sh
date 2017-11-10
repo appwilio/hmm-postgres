@@ -2,6 +2,7 @@
 
 POSTGRE_SEARCH_DIR="/usr/share/postgresql/$PG_MAJOR/tsearch_data"
 whoami
+echo $POSTGRE_SEARCH_DIR
 ls -la $POSTGRE_SEARCH_DIR
 #Unzip dictionary
 #cp /temp/ru_ru.affix "$POSTGRE_SEARCH_DIR/"
